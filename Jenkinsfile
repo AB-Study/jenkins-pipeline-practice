@@ -5,7 +5,7 @@ pipeline
     {
       stage("FirstStage")
       {
-        step
+        steps
         {
           echo "Hey this is the first stage" 
         }
